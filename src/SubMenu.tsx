@@ -547,7 +547,7 @@ export class SubMenu extends React.Component<SubMenuProps> {
         title={typeof props.title === 'string' ? props.title : undefined}
       >
         {props.title}
-        {icon || <i className={`${prefixCls}-arrow`} />}
+        {icon || <span className={`${prefixCls}-arrow`} />}
       </div>
     );
     const children = this.renderChildren(props.children);
