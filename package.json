@@ -1,6 +1,6 @@
 {
   "name": "noi-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "menu ui component for react, modified to not include an <i> tag in the menu",
   "keywords": [
     "react",
