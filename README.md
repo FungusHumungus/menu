@@ -1,33 +1,18 @@
-# rc-menu
+# noi-menu
 
 ---
 
 React Menu Component. port from https://github.com/kissyteam/menu
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
-[![Dependencies][david-image]][david-url]
-[![DevDependencies][david-dev-image]][david-dev-url]
-[![npm download][download-image]][download-url]
-[![bundle size][bundlephobia-image]][bundlephobia-url]
-
 [npm-image]: http://img.shields.io/npm/v/rc-menu.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/rc-menu
-[travis-image]: https://img.shields.io/travis/react-component/menu/master?style=flat-square
-[travis-url]: https://travis-ci.org/react-component/menu
-[circleci-image]: https://img.shields.io/circleci/react-component/menu/master?style=flat-square
-[circleci-url]: https://circleci.com/gh/react-component/menu
-[coveralls-image]: https://img.shields.io/coveralls/react-component/menu.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/react-component/menu?branch=master
-[david-url]: https://david-dm.org/react-component/menu
-[david-image]: https://david-dm.org/react-component/menu/status.svg?style=flat-square
-[david-dev-url]: https://david-dm.org/react-component/menu?type=dev
-[david-dev-image]: https://david-dm.org/react-component/menu/dev-status.svg?style=flat-square
-[download-image]: https://img.shields.io/npm/dm/rc-menu.svg?style=flat-square
-[download-url]: https://npmjs.org/package/rc-menu
-[bundlephobia-url]: https://bundlephobia.com/result?p=rc-menu
-[bundlephobia-image]: https://badgen.net/bundlephobia/minzip/rc-menu
+
+## Forked
+
+This is a Fork of the [rc-menu](https://www.npmjs.com/package/rc-menu) library, modified so it uses a <span> tag as opposed to an <i> tag to render the submenu arrow icon. <i> tags cause issues with the  WCAG 2.0 (Level AA)) accessibility guidelines as <i> is technically an obsolete tag designed to render italics, and should not be used as an icon placeholder.
+
+This is forked from version 8.5.0 of the library.
 
 ## Install
 
